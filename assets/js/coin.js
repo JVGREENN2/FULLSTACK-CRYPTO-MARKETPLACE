@@ -58,7 +58,7 @@ document.addEventListener("DOMContentLoaded", () => {
     if (query) {
         fetchCoinInfo(query);
     } else {
-        window.location.href = "/../../index.html";
+        window.location.href = "/../index.html";
     }
 });
 
